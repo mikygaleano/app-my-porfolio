@@ -1,10 +1,13 @@
+import { CardHome } from "./components/CardHome";
 
 
 export const App = () =>{
 
   return (
     <>
-      <h1>Porfolio</h1>
+      <section>
+        <CardHome/>
+      </section>
     </>
   )
 };

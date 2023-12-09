@@ -31,6 +31,7 @@ module.exports = {
         parserOptions: {
           ecmaFeatures: {
             jsx: true,
+            HTMLImageElement: true
           },
         },
     },
