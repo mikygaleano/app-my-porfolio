@@ -1,11 +1,13 @@
+import { cv, socialMedia } from "../constantes";
 import { CardHome } from "./CardHome"
+import { Presentation } from "./Presentation";
 
 
 export const Home = ()=> {
 
     const handleDownload = () => {
         const downloadInstance = document.createElement('a');
-        downloadInstance.href = './public/archivos/cv.pdf';
+        downloadInstance.href = cv;
         downloadInstance.target = '_blank';
     
         document.body.appendChild(downloadInstance);
@@ -16,8 +18,11 @@ export const Home = ()=> {
       };
 
     return (
-        <section>
-            <CardHome handleDownload={handleDownload}/>
+        <section className="w-full flex flex-1 justify-center">
+            <div className="mt-10 w-10/12 h-fit max-sm:flex max-sm:flex-col grid grid-cols-2 grid-rows-2 gap-5">
+                <CardHome handleDownload={handleDownload} socialMedia={socialMedia}/>
+                <Presentation />
+            </div>
         </section>
     )
 }
