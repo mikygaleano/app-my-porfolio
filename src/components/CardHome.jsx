@@ -3,9 +3,9 @@
 export const CardHome = ({handleDownload, socialMedia})=> {
 
     return (
-        <div className="h-52 container flex flex-grow max-sm:flex-col items-center bg-slate-200 rounded-lg max-sm:justify-center m-auto shadow-xl">
+        <div className="h-52 container flex flex-grow max-sm:flex-col items-center bg-primaryLow rounded-lg max-sm:justify-center m-auto shadow-xl">
             <figure className="w-28 h-28">
-              <img className="relative -left-1/4 max-sm:-left-0 max-sm:top-3 w-20 h-20 rounded-full bg-yellow-200 object-contain hover:scale-110" src="./public/image/perfil.png" alt="foto avatare"/>
+              <img className="relative -left-1/4 max-sm:-left-0 max-sm:top-3 w-20 h-20 rounded-full bg-backgroundSecond object-contain hover:scale-110" src="./public/image/perfil.png" alt="foto avatare"/>
             </figure>
             <div className="w-full m-3 h-24 flex flex-col justify-end max-sm:ml-14">
               <span className="text-slate-500 text-lg max-sm:text-xs">Developer</span>
