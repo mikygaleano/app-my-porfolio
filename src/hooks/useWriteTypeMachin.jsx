@@ -29,6 +29,11 @@ export const useWriteTypeMachin =(text)=> {
 
         await delay(500); // esperar antes de aumentar el index
         setIndex((prevIndex) => (prevIndex + 1) % text.length);
+
+        if (index === text.length) {
+          setIndex(0);
+          await delay(500)
+        }
   };
 
   useEffect(() => {
