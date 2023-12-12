@@ -29,3 +29,6 @@ export const socialMedia = [
 ];
 
 export const cv = './public/archivos/cv.pdf';
+
+export const text = ['Developer','Frontend','Backend' ,'Ingeniero'];
+

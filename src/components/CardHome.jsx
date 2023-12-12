@@ -1,14 +1,14 @@
 
 
-export const CardHome = ({handleDownload, socialMedia})=> {
+export const CardHome = ({handleDownload, socialMedia, currentText})=> {
 
     return (
-        <div className="h-52 container flex flex-grow max-sm:flex-col items-center bg-primaryLow rounded-lg max-sm:justify-center m-auto shadow-xl">
+        <div className="h-52 container flex flex-grow max-sm:flex-col items-center bg-primaryLigth rounded-lg max-sm:justify-center m-auto shadow-xl">
             <figure className="w-28 h-28">
-              <img className="relative -left-1/4 max-sm:-left-0 max-sm:top-3 w-20 h-20 rounded-full bg-backgroundSecond object-contain hover:scale-110" src="./public/image/perfil.png" alt="foto avatare"/>
+              <img className="relative -left-1/4 max-sm:-left-0 max-sm:top-3 w-20 h-20 rounded-full bg-secondLigth object-contain hover:scale-110" src="./public/image/perfil.png" alt="foto avatare"/>
             </figure>
             <div className="w-full m-3 h-24 flex flex-col justify-end max-sm:ml-14">
-              <span className="text-slate-500 text-lg max-sm:text-xs">Developer</span>
+              <span className="text-slate-500 text-lg max-sm:text-xs">{currentText}</span>
               <h1 className="text-xl font-bold max-sm:text-xs">Galeano Michael N.</h1>
               <div className="flex my-2 gap-2">
                 {
