@@ -32,7 +32,7 @@ export const useWriteTypeMachin =(text)=> {
 
         if (index === text.length) {
           setIndex(0);
-          await delay(500)
+          await delay(200)
         }
   };
 

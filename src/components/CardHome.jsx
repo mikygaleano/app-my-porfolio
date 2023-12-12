@@ -8,7 +8,7 @@ export const CardHome = ({handleDownload, socialMedia, currentText})=> {
               <img className="relative -left-1/4 max-sm:-left-0 max-sm:top-3 w-20 h-20 rounded-full bg-secondLigth object-contain hover:scale-110" src="./public/image/perfil.png" alt="foto avatare"/>
             </figure>
             <div className="w-full m-3 h-24 flex flex-col justify-end max-sm:ml-14">
-              <span className="text-slate-500 text-lg max-sm:text-xs">{currentText}</span>
+              <span className="text-slate-500 text-lg max-sm:text-xs">{currentText}<strong className="animate-pulse">|</strong></span>
               <h1 className="text-xl font-bold max-sm:text-xs">Galeano Michael N.</h1>
               <div className="flex my-2 gap-2">
                 {
