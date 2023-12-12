@@ -32,3 +32,4 @@ export const cv = './public/archivos/cv.pdf';
 
 export const text = ['Developer','Frontend','Backend' ,'Ingeniero'];
 
+export     const images = ['./public/image/Screenshot.png', './public/image/background.jpg'];

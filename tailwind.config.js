@@ -23,6 +23,11 @@ export default {
         punter: 'punter 1s ease-in-out infinite'
       }
     },
+    fontFamily: {
+      fontFamily: {
+        'display':['Oswald, sans-serif']
+      },
+    }
   },
   plugins: [],
 }
