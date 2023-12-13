@@ -5,31 +5,31 @@ export const socialMedia = [
     {
         name: 'linkedin',
         link: 'https://linkedin.com/in/michaelgaleano/',
-        image: './public/image/linkedin.png',
+        image: './image/linkedin.png',
         id: generarID()
     },
     {
         name: 'github',
         link: 'https://github.com//mikygaleano/',
-        image: './public/image/github.png',
+        image: './image/github.png',
         id: generarID()
     },
     {
         name: 'mail',
         link: 'mailto:creatormikeonline@gmail.com',
-        image: './public/image/email.png',
+        image: './image/email.png',
         id: generarID()
     },
     {
         name: 'whatsapp',
         link: 'https://api.whatsapp.com/send?phone=5401138985013',
-        image: './public/image/whatsapp.png',
+        image: './image/whatsapp.png',
         id: generarID()
     }
 ];
 
-export const cv = './public/archivos/cv.pdf';
+export const cv = './archivos/cv.pdf';
 
 export const text = ['Developer','Frontend','Backend' ,'Ingeniero'];
 
-export     const images = ['./public/image/Screenshot.png', './public/image/background.jpg'];
+export     const images = ['./image/Screenshot.png', './image/background.jpg'];

@@ -8,6 +8,7 @@ export const Proyect = ()=> {
 
     return (
         <div className="w-full h-72 row-end-3 relative rounded-lg">
+            <h3 className="text-white text-center">Proyectos</h3>
             <div className="w-full h-full flex absolute">
                 <figure className="">
                 {images.map((motion, index) => (
