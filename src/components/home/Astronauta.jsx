@@ -3,8 +3,9 @@
 export const Astronauta = ()=> {
 
     return (
-        <figure className="max-md:hidden w-2/3 max-sm:w-full max-md:w-full row-end-2 col-end-2 flex justify-center">
+        <figure className="max-md:hidden w-full max-h-full row-span-3 col-end-1 m-auto">
             <img 
+            className="w-full min-h-full"
                 src="./image/astronauta.png" 
                 alt="astronauta" />
         </figure>
