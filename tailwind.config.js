@@ -27,7 +27,10 @@ export default {
       fontFamily: {
         'display':['Oswald, sans-serif']
       },
-    }
+    },
+    screens: {
+      'xs': '318px',
+    },
   },
   plugins: [],
 }
