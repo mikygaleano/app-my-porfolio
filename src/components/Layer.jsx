@@ -2,7 +2,7 @@ import { useLayer } from "../hooks/useLayer"
 import { images } from "../constantes"
 
 
-export const Proyect = ()=> {
+export const Layer = ()=> {
 
     const { handleNextClick, handlePrevClick, currentImage } = useLayer(images);
 
