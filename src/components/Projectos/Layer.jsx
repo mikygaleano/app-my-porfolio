@@ -1,5 +1,5 @@
-import { useLayer } from "../hooks/useLayer"
-import { images } from "../constantes"
+import { useLayer } from "../../hooks/useLayer"
+import { images } from "../../constantes"
 
 
 export const Layer = ()=> {

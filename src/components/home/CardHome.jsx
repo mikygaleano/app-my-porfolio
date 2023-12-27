@@ -5,7 +5,7 @@ export const CardHome = ({handleDownload, socialMedia, currentText})=> {
 
     return (
         <div
-          className='h-52 w-full row-end-1 col-end-2 flex flex-1 flex-grow max-sm:flex-col items-center bg-primaryLigth rounded-lg max-sm:justify-center m-auto shadow-xl'   
+          className='h-52 w-full max-md:w-11/12 row-end-1 col-end-2 flex flex-1 flex-grow max-sm:flex-col items-center bg-primaryLigth rounded-lg max-sm:justify-center m-auto shadow-xl'   
           >
             <figure className="w-28 h-28">
               <img className="relative -left-1/4 max-sm:-left-0 max-sm:top-3 w-20 h-20 rounded-full bg-secondLigth object-contain hover:scale-110" src="./image/perfil.png" alt="foto avatare"/>

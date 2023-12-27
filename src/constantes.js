@@ -30,6 +30,6 @@ export const socialMedia = [
 
 export const cv = './archivos/cv.pdf';
 
-export const text = ['Developer','Frontend','Backend' ,'Ingeniero'];
+export const text = ['Developer','Frontend','Ing. informatico'];
 
 export     const images = ['./image/Screenshot.png', './image/background.jpg'];
