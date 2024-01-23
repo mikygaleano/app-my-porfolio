@@ -1,3 +1,4 @@
+import { Presentation } from "./Presentation";
 
 
 export const CardHome = ({handleDownload, socialMedia, currentText})=> {
@@ -5,12 +6,12 @@ export const CardHome = ({handleDownload, socialMedia, currentText})=> {
 
     return (
         <div
-          className='h-52 w-full max-md:w-11/12 row-end-1 col-end-2 flex flex-1 flex-grow max-sm:flex-col items-center bg-primaryLigth rounded-lg max-sm:justify-center m-auto shadow-xl'   
+          className='h-52 w-10/12 max-md:w-11/12 max-md:h-80 row-end-1 col-end-2 flex flex-1 flex-grow max-sm:flex-col items-center bg-primaryLigth rounded-lg max-sm:justify-center m-auto shadow-xl'   
           >
-            <figure className="w-28 h-28">
-              <img className="relative -left-1/4 max-sm:-left-0 max-sm:top-3 w-20 h-20 rounded-full bg-secondLigth object-contain hover:scale-110" src="./image/perfil.png" alt="foto avatare"/>
+            <figure className="w-52 h-52">
+              <img className="relative -left-10 top-12  max-sm:top-3 max-sm:left-1/4 w-24 h-24 rounded-full bg-secondLigth object-center hover:scale-110" src="./image/perfil.png" alt="foto avatare"/>
             </figure>
-            <div className="w-full m-3 h-24 flex flex-col justify-end max-sm:ml-14">
+            <div className="max-md:w-full w-1/2 m-3 h-24 flex flex-col justify-end max-sm:ml-14">
               <span className="text-slate-500 text-lg max-sm:text-xs">{currentText}<strong className="animate-pulse">|</strong></span>
               <h1 className="text-xl font-bold max-sm:text-xs">Galeano Michael N.</h1>
               <div className="flex my-2 gap-2">
@@ -27,6 +28,8 @@ export const CardHome = ({handleDownload, socialMedia, currentText})=> {
                 </button>
               </div>
             </div>
+            <div className="w-fit h-5/6 max-sm:w-10/12 max-sm:h-fit m-auto border border-gray-500"></div>
+            <Presentation/>
           </div>
     )
 };

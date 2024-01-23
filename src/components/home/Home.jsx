@@ -1,9 +1,6 @@
 import { cv, socialMedia, text } from "../../constantes";
 import { useWriteTypeMachin } from "../../hooks/useWriteTypeMachin";
 import { CardHome } from "./CardHome"
-import { Presentation } from "./Presentation";
-import { Astronauta } from "./Astronauta";
-
 
 export const Home = ()=> {
 
@@ -29,8 +26,6 @@ export const Home = ()=> {
                     socialMedia={socialMedia}
                     currentText={currentText}
                     />
-                <Presentation />
-                <Astronauta />
             </div>
         </section>
     )
