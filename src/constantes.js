@@ -32,4 +32,17 @@ export const cv = './archivos/cv.pdf';
 
 export const text = ['Developer','Frontend','Ing. informatico'];
 
-export     const images = ['./image/Screenshot.png', './image/background.jpg'];
+export const images = ['./image/Screenshot.png', './image/background.jpg'];
+
+export const exper = [
+    {
+        fecha: 'Actualmente',
+        puesto: 'Full stack developer web',
+        parrafo: ['Desarrollo aplicaciones web de manera frelance']
+    },
+    {
+        fecha: 'Marzo 2023',
+        puesto: 'Frontend developer web',
+        parrafo: ['Fui integrante, como desarrollador en un equipo de la startup identikit app.', 'Para desarrollar una web informativa para una aseguradora']
+    }
+];
