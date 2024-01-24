@@ -19,7 +19,7 @@ export const Home = ()=> {
       };
 
     return (
-        <section className="min-w-full h-full max-md:max-h-fit flex flex-1 justify-center gap-5 m-auto bg-black">
+        <section className="min-w-full h-full max-md:max-h-fit flex flex-1 justify-center gap-5 m-auto">
             <div className="w-full h-full p-10 max-sm:p-2 grid grid-flow-col max-md:grid-cols-1 max-md:place-content-center gap-2">
                 <CardHome 
                     handleDownload={handleDownload}
