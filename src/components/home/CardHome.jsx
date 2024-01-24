@@ -12,11 +12,11 @@ export const CardHome = ({handleDownload, socialMedia, currentText})=> {
             </figure>
             <div className="max-md:w-full w-1/2 m-3 h-24 flex flex-col justify-end max-sm:ml-14">
               <span className="text-slate-500 text-lg max-sm:text-xs">{currentText}<strong className="animate-pulse">|</strong></span>
-              <h1 className="text-xl font-bold max-sm:text-xs">Galeano Michael N.</h1>
+              <h1 className="text-xl font-bold max-md:text-xs">Galeano Michael N.</h1>
               <div className="flex my-2 gap-2">
                 {
                   socialMedia.map(social => (
-                    <a key={social.id} href={social.link} target="_blank"><img className="w-5 p-1 bg-white rounded hover:bg-slate-100" src={social.image} alt={social.name}/></a>
+                    <a key={social.id} href={social.link} target="_blank"><img className="w-5 max-sm:w-7 p-1 bg-white rounded hover:bg-slate-100" src={social.image} alt={social.name}/></a>
                   ))
                 }
                 <button 
@@ -29,10 +29,10 @@ export const CardHome = ({handleDownload, socialMedia, currentText})=> {
             </div>
             <div className="w-fit h-5/6 max-sm:w-10/12 max-sm:h-fit m-auto border border-gray-500"></div>
             <div className="w-full h-full flex flex-row items-center justify-center m-auto max-sm:mt-10">
-                <div className="w-11/12 max-sm:h-full max-2xl:h-3/5 max-md:ml-auto max-md:mr-auto max-md:mt-auto flex flex-col">
-                    <div className="w-full flex flex-col gap-2 font-[open-display]">
-                        <p className=" text-slate-500 font-bold text-sm">+2 años de experiencia. Soy un profesional en constante aprendizaje y evolución.</p>
-                        <p className=" text-slate-500 font-bold text-sm">De <span className="text-red-500">Buenos Aíres, </span><span className=" text-cyan-500">Argentina</span></p>
+                <div className="w-11/12 max-sm:h-full max-2xl:h-3/5 max-md:ml-auto max-md:mr-auto max-md:mt-auto max-sm:mb-2.5 flex flex-col">
+                    <div className="w-full flex flex-col gap-0 font-[open-display]">
+                        <p className=" text-slate-500 font-black">3 años de experiencia. <span className="text-orange-600">Soy un profesional en constante aprendizaje y evolución.</span> </p>
+                        <p className=" text-slate-500 font-black">De <span className="text-red-500">Buenos Aíres, </span><span className=" text-cyan-500">Argentina</span></p>
                     </div>
                 </div>
             </div>
