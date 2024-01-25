@@ -7,7 +7,7 @@ export const Layer = ()=> {
     const { handleNextClick, handlePrevClick, currentImage } = useLayer(images);
 
     return (
-        <div className="w-full h-72 row-end-3 relative rounded-lg">
+        <div className="w-10/12 h-72 relative rounded-lg">
             <div className="w-full h-full flex absolute">
                 <figure>
                     {images.map((motion, index) => (

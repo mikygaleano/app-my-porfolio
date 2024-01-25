@@ -36,11 +36,13 @@ export const images = ['./image/Screenshot.png', './image/background.jpg'];
 
 export const exper = [
     {
+        id: generarID(),
         fecha: 'Actualmente',
         puesto: 'Full stack developer web',
         parrafo: ['Desarrollo aplicaciones web de manera frelance']
     },
     {
+        id: generarID(),
         fecha: 'Marzo 2023',
         puesto: 'Frontend developer web',
         parrafo: ['Fui integrante, como desarrollador en un equipo de la startup identikit app.', 'Para desarrollar una web informativa para una aseguradora']
