@@ -9,6 +9,7 @@ export const Experiencia = ({exper})=> {
                 <div className="h-fit flex flex-col items-center mt-5">
                     <div className="w-full h-fit flex flex-col gap-10 border-l border-slate-300">
                         {
+                        
                             exper.map(item => (
                                 <article key={item.id} className="w-full h-fit relative -left-1.5 mt-2">
                                     <div className="flex flex-row items-center gap-3">
@@ -18,8 +19,8 @@ export const Experiencia = ({exper})=> {
                                     <div className="max-w-fit p-5">
                                         <h4 className="text-orange-700 font-semibold text-xl">{item.puesto}</h4>
                                         {
-                                            item.parrafo.map(linea => (
-                                                <p className="font-semibold text-xl">{linea}</p>
+                                            item.parrafo.map((linea, index) => (
+                                                <p key={index} className="font-semibold text-xl">{linea}</p>
                                             ))
                                         }
                                     </div>
