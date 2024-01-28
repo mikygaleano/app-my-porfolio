@@ -32,7 +32,23 @@ export const cv = './archivos/cv.pdf';
 
 export const text = ['Developer','Frontend','Ing. informatico'];
 
-export const images = ['./image/Screenshot.png', './image/background.jpg'];
+export const proyectos = [
+    {
+        id: generarID(),
+        image: './public/proyects/mercado-libre.png',
+        tecnologias: ['tailwind', 'react']
+    },
+    {
+        id: generarID(),
+        image: './public/proyects/clima.png',
+        tecnologias: ['css', 'javascript', 'api clima']
+    },
+    {
+        id: generarID(),
+        image: './public/proyects/to-do-list.png',
+        tecnologias: ['css', 'javascript']
+    }
+];
 
 export const exper = [
     {
