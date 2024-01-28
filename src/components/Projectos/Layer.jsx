@@ -10,16 +10,19 @@ export const Layer = ({proyectos, currentImage})=> {
                     <div key={items.id} className={`w-full h-80 absolute ${index === currentImage ? "opacity-100 transition duration-200" : "opacity-0 transition duration-200"}`}>
                         <div className={`w-full flex flex-row gap-5`}>
                             {
-                                items.tecnologias.map((tech)=> (
-                                    <span key={index} className={`w-fit h-fit p-1 rounded-md bg-backgroundSecond text-backgroundPrimary font-semibold`}>{tech}</span>
+                                index === currentImage &&
+                                items.tecnologias.map((tech, techIndex)=> (
+                                        <span key={techIndex} className={`w-fit h-fit p-1 rounded-md bg-backgroundSecond text-backgroundPrimary font-semibold`}>{tech}</span>
                                 ))
+
                             }
+                            
                             <a href={items.url} target="_blank" rel="noopener noreferrer" className={`w-fit h-fit p-1 rounded-md bg-slate-400 text-yellow-50`}>website</a>
                         </div>
                         <div className={`w-full h-full flex flex-row max-md:flex-col mt-5 gap-5 justify-center items-start `}>
                                 <figure className="w-full h-full">
                                     <img
-                                        className={`w-full h-full rounded-lg object-cover`}
+                                        className={`w-full h-full rounded-lg object-fill`}
                                         src={items.image}
                                         alt={`Image ${items.id}`} />
                                 </figure>

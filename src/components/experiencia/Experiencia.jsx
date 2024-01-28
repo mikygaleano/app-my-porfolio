@@ -3,7 +3,7 @@
 export const Experiencia = ({exper})=> {
 
     return (
-        <section className="w-full min-h-full flex flex-col items-center">
+        <section className="w-full min-h-full flex flex-col items-center" id="experiencia">
             <div className="w-10/12 h-fit flex flex-1 flex-col">
                 <h3 className="-ml-2 font-semibold text-3xl">💼 Experiencia laboral</h3>
                 <div className="h-fit flex flex-col items-center mt-5">
