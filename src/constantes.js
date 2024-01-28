@@ -5,25 +5,25 @@ export const socialMedia = [
     {
         name: 'linkedin',
         link: 'https://linkedin.com/in/michaelgaleano/',
-        image: './image/linkedin.png',
+        image: 'public/image/social/linkedin.png',
         id: generarID()
     },
     {
         name: 'github',
         link: 'https://github.com//mikygaleano/',
-        image: './image/github.png',
+        image: 'public/image/social/github.png',
         id: generarID()
     },
     {
         name: 'mail',
         link: 'mailto:creatormikeonline@gmail.com',
-        image: './image/email.png',
+        image: 'public/image/social/email.png',
         id: generarID()
     },
     {
         name: 'whatsapp',
         link: 'https://api.whatsapp.com/send?phone=5401138985013',
-        image: './image/whatsapp.png',
+        image: 'public/image/social/email.png',
         id: generarID()
     }
 ];
@@ -35,17 +35,17 @@ export const text = ['Developer','Frontend','Ing. informatico'];
 export const proyectos = [
     {
         id: generarID(),
-        image: './public/image/proyects/mercado-libre.png',
+        image: 'public/image/proyects/mercado-libre.png',
         tecnologias: ['tailwind', 'react']
     },
     {
         id: generarID(),
-        image: './public/image/proyects/clima.png',
+        image: 'public/image/proyects/clima.png',
         tecnologias: ['css', 'javascript', 'api clima']
     },
     {
         id: generarID(),
-        image: './public/image/proyects/to-do-list.png',
+        image: 'public/image/proyects/to-do-list.png',
         tecnologias: ['css', 'javascript']
     }
 ];
