@@ -1,5 +1,6 @@
 import { Proyectos } from "./components/Projectos/Proyectos";
 import { Experiencia } from "./components/experiencia/Experiencia";
+import { Footer } from "./components/footer/Footer";
 import { Header } from "./components/header/Header";
 import { Home } from "./components/home/Home";
 import { SobreMi } from "./components/sobre-mi/SobreMi";
@@ -15,6 +16,7 @@ export const App = () =>{
      <Experiencia exper={exper}/>
      <Proyectos/>
      <SobreMi/>
+     <Footer/>
     </main>
   )
 };
