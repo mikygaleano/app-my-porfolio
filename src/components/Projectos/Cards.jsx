@@ -7,7 +7,7 @@ export const Cards = ({proyectos})=> {
         <div className="w-10/12 h-full rounded-lg flex flex-col gap-16">
             {
                 proyectos.map((items) => (
-                    <div key={items.id} className={`w-full h-80 flex flex-col`}>
+                    <div key={items.id} className={`w-full h-full flex flex-col`}>
                         <div className={`w-full flex flex-row gap-5`}>
                             {
                                 items.tecnologias.map((tech, techIndex)=> (
@@ -18,7 +18,7 @@ export const Cards = ({proyectos})=> {
                             
                             <a href={items.url} target="_blank" rel="noopener noreferrer" className={`w-fit h-fit p-1 rounded-md bg-slate-400 text-yellow-50`}>website</a>
                         </div>
-                        <div className={`w-full h-full grid grid-cols-2 max-md:grid-cols-1 mt-5 gap-5`}>
+                        <div className={`w-full h-full flex flex-col mt-5 gap-5`}>
                                 <figure className="w-full">
                                     <img
                                         className={`w-full h-full rounded-lg object-cover`}

@@ -3,8 +3,8 @@
 export const SobreMi = ()=> {
 
     return (
-        <section className="w-full h-full flex flex-col items-center gap-5" id="sobre-mi">
-            <div className="w-10/12 h-fit mt-5">
+        <section className="w-full min-h-full flex flex-col items-center gap-5" id="sobre-mi">
+            <div className="w-10/12 h-fit">
                 <h3 className="font-semibold text-3xl">👤 Sobre mi</h3>
             </div>
             <div className="w-10/12 h-fit gap-5 font-semibold text-xl flex flex-row max-md:flex-col-reverse justify-center items-center pb-5">
