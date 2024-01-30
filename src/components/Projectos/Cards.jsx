@@ -8,7 +8,7 @@ export const Cards = ({proyectos})=> {
             {
                 proyectos.map((items) => (
                     <div key={items.id} className={`w-full h-full flex flex-col`}>
-                        <div className={`w-full flex flex-row gap-5`}>
+                        <div className={`w-full flex flex-row flex-wrap gap-5`}>
                             {
                                 items.tecnologias.map((tech, techIndex)=> (
                                         <span key={techIndex} className={`w-fit h-fit p-1 rounded-md bg-backgroundSecond text-backgroundPrimary font-semibold`}>{tech}</span>
