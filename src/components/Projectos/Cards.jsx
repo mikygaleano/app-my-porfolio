@@ -28,7 +28,7 @@ export const Cards = ({proyectos})=> {
                                 <div className="w-full flex flex-col items-start">
                                     {
                                         items.detail.map((parrafo, parrafoIndex)=> (
-                                            <p key={parrafoIndex} className={``}>{parrafo}</p>
+                                            <p key={parrafoIndex} className={`text-sm text-slate-500 font-semibold`}>{parrafo}</p>
                                         ))
                                     }
                                 </div>

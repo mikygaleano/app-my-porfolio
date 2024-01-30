@@ -36,23 +36,23 @@ export const proyectos = [
     {
         id: generarID(),
         image: 'image/mercado-libre.png',
-        tecnologias: ['tailwind css', 'react.js'],
+        tecnologias: ['tailwind css', 'react.js', 'react-router-dom', 'vite'],
         url: 'https://mikygaleano.github.io/my-store',
-        detail: ['Proyecto con fines didacticos.', 'Es un clon de mercado libre, es de codigo libre.'],
+        detail: ['Este es un proyecto clon de MercadoLibre desarrollado con fines didacticos.', 'Es un clon de mercado libre, es de codigo libre. El objetivo principal es aprender y mejorar las habilidades en desarrollo web.', 'Este proyecto está disponible como código abierto para que cualquier persona interesada pueda revisar, clonar y contribuir para mejorar o personalizar según sus necesidades.'],
     },
     {
         id: generarID(),
         image: 'image/clima.png',
-        tecnologias: ['css', 'javascript', 'api clima'],
+        tecnologias: ['module css', 'react.js', 'api tu tiempo'],
         url: 'https://mikygaleano.github.io/react-app-clima',
-        detail: ['App web meterologica.', 'Consume una api externa y trae la informacíon del clima.'],
+        detail: ['Es una aplicación web integral que proporciona información meteorológica precisa y detallada para usuarios de todo el mundo.', ' Diseñada con un enfoque en la usabilidad y la accesibilidad, esta aplicación ofrece una experiencia única para aquellos interesados en monitorear y comprender el clima en su región local y más allá.'],
     },
     {
         id: generarID(),
         image: 'image/to-do-list.png',
-        tecnologias: ['css', 'javascript'],
+        tecnologias: ['tailwind css', 'react.js', 'vite'],
         url: 'https://mikygaleano.github.io/to-do-list',
-        detail: ['App web to do list.', 'Agregar lista nueva, marcar completas y borrar lista'],
+        detail: ['es una aplicación web imprescindible para cualquier persona que busque mejorar su organización personal, gestionar proyectos de manera efectiva y aumentar su productividad en general.', ' Con su conjunto completo de características y su enfoque en la usabilidad, esta aplicación ofrece una solución integral para la gestión de tareas que se adapta a las necesidades de cualquier usuario.'],
     }
 ];
 
