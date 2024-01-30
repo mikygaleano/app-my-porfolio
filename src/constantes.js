@@ -36,7 +36,7 @@ export const proyectos = [
     {
         id: generarID(),
         image: 'image/mercado-libre.png',
-        tecnologias: ['tailwind', 'react'],
+        tecnologias: ['tailwind css', 'react.js'],
         url: 'https://mikygaleano.github.io/my-store',
         detail: ['Proyecto con fines didacticos.', 'Es un clon de mercado libre, es de codigo libre.'],
     },
