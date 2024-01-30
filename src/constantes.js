@@ -23,7 +23,7 @@ export const socialMedia = [
     {
         name: 'whatsapp',
         link: 'https://api.whatsapp.com/send?phone=5401138985013',
-        image: 'image/email.png',
+        image: 'image/whatsapp.png',
         id: generarID()
     }
 ];
