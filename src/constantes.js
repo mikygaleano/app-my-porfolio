@@ -61,7 +61,7 @@ export const exper = [
         id: generarID(),
         fecha: 'Actualmente',
         puesto: 'Full stack developer web',
-        parrafo: ['Desarrollo aplicaciones web de manera freelance']
+        parrafo: ['Desarrollo web de manera freelance']
     },
     {
         id: generarID(),
