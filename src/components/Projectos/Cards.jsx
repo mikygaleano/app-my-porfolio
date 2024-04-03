@@ -8,6 +8,7 @@ export const Cards = ({proyectos})=> {
             {
                 proyectos.map((items) => (
                     <div key={items.id} className='w-full h-full flex flex-col'>
+                        <h4 className="text-left text-xl font-bold text-slate-700 mb-5">{items.title}</h4>
                         <div className='w-full flex flex-row flex-wrap gap-5'>
                             {
                                 items.tecnologias.map((tech, techIndex)=> (

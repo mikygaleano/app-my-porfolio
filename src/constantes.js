@@ -35,6 +35,7 @@ export const text = ['Developer','Frontend','Ing. informatico'];
 export const proyectos = [
     {
         id: generarID(),
+        title:'Clone mercado libre',
         image: 'image/mercado-libre.png',
         tecnologias: ['tailwind css', 'react.js', 'react-router-dom', 'vite'],
         url: 'https://mikygaleano.github.io/my-store',
@@ -42,6 +43,7 @@ export const proyectos = [
     },
     {
         id: generarID(),
+        title:'Clima',
         image: 'image/clima.png',
         tecnologias: ['module css', 'react.js', 'api tu tiempo'],
         url: 'https://mikygaleano.github.io/react-app-clima',
@@ -49,6 +51,7 @@ export const proyectos = [
     },
     {
         id: generarID(),
+        title:'To-do-list',
         image: 'image/to-do-list.png',
         tecnologias: ['tailwind css', 'react.js', 'vite'],
         url: 'https://mikygaleano.github.io/to-do-list',
