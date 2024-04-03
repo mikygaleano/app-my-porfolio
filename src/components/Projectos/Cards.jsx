@@ -16,7 +16,7 @@ export const Cards = ({proyectos})=> {
 
                             }
                             
-                            <a href={items.url} target="_blank" rel="noopener noreferrer" className='w-fit h-fit animate-backgroundGradientAnimation rounded-lg shadow-lg p-1 text-black'>website</a>
+                            <a href={items.url} target="_blank" rel="noopener noreferrer" className='w-fit h-fit animate-backgroundGradientAnimation rounded-lg shadow-xl p-1 text-black'>sitio web</a>
                         </div>
                         <div className='w-full h-full flex flex-col mt-5 gap-5'>
                                 <figure className="w-full border-sky-100 rounded-lg shadow-lg p-1">

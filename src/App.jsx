@@ -10,7 +10,7 @@ import { exper } from "./constantes";
 export const App = () =>{
 
   return (
-    <main className="bg-slate-100 min-w-full min-h-screen flex flex-col items-center gap-10 font-fontFamily">
+    <main className=" bg-yellow-100 min-w-full min-h-screen flex flex-col items-center gap-10 font-fontFamily">
      <Header/>
      <Home/>
      <Experiencia exper={exper}/>
