@@ -32,7 +32,7 @@ export const CardHome = ({handleDownload, socialMedia, currentText})=> {
             <div className="w-fit h-5/6 max-sm:w-10/12 max-sm:h-fit m-auto border border-gray-500"></div>
             <div className="w-full h-full flex flex-row max-[619px]:ml-2 items-center justify-center max-sm:mt-10">
                 <div className="w-11/12 max-sm:h-full max-2xl:h-3/5 max-md:ml-auto max-md:mr-auto max-md:mt-auto max-sm:mb-2.5 flex flex-col">
-                    <div className="w-full flex flex-col gap-0 font-[open-display]">
+                    <div className="w-full flex flex-col gap-0 font-[open-display] max-md:mb-5 max-[281px]:mb-0">
                         <p className=" text-slate-500 font-black">3 años de experiencia. <span className="text-orange-600">Soy un profesional en constante aprendizaje y evolución.</span> </p>
                         <p className=" text-slate-500 font-black">De <span className="text-red-500">Buenos Aíres, </span><span className=" text-cyan-500">Argentina</span></p>
                     </div>
